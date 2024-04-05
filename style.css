@@ -1,0 +1,255 @@
+/* Write some CSS below */
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.banner{
+    background-image: URL(images/banner.png);
+    color:white;
+    text-align: center;
+    background-position: center;
+    background-size:cover;
+    padding: 200px 0;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+    width:100%;
+}
+
+.banner h1{
+    font-size: 64px;
+    font-weight: 900;
+    font-family: "Playfair Display", sans-serif;
+}
+.banner p{
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h3,h2{
+    font-family: "Playfair Display", sans-serif;
+}
+
+.btn-white {
+ text-decoration: none;
+ border-radius: 5px;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+ background-color: white;
+ border: 3px solid black;
+ padding: 10px 25px;
+ color: black;
+ font-size: 16px;
+ font-weight: 500;
+}
+.btn-white:hover{
+    background-color: black;
+    color: white }
+
+.container{
+    width: 1200px;
+    margin: 40px auto;
+}
+.card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 15px;
+    border-radius: 5px;
+    margin:30px 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.02);
+
+}
+
+.image-clic img {
+    width:100%;
+    height: 350px;
+    object-fit:cover;
+    object-position: center;
+    
+}
+.image-clic{
+    text-decoration:none;
+    color:black
+}
+
+
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:16px;
+    width: 100%;
+}
+
+.cards-collab{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+}
+.card-text{
+    text-align: center;
+    padding: 250px 30px;
+    background-color: #EFEBE8;
+}
+.container2-img{  
+    width:100%;
+    height: 670px;
+    object-fit:cover
+}
+
+.video img {
+    width:100%;
+    height: 500px;
+    object-fit:cover;
+    object-position: center;
+}
+
+.container3-img{ 
+    width:100%;
+    height: 550px;
+    object-fit:cover}
+
+.card-reco{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:16px;
+}
+.card-packshot-pic{
+    padding: 10px 0px;
+    margin:40px 0px;
+    
+
+}
+.packshot-card-packshot img{
+    width:100%;
+    height: 1200px;
+    object-fit:cover;
+}
+
+.card-packshot {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 5px;
+    margin:50px 30px;
+    transition: 0.5s;
+}
+.card-packshot:hover{
+    transform: scale(1.02);
+}
+.call-to-action {
+display: flex;
+justify-content: space-between;
+align-items:cover;
+color:black;
+}
+
+
+.call-to-action-discover{
+    color: black;
+}
+
+#cta-contact{ 
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    color: black;
+    font-size: 14px;
+}
+#cta-contact:hover{
+    background-color: black;
+    color: white }
+
+.service{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 30px 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+.list-inlign li{
+    display: inline;
+    list-style: none;
+    
+}
+ul{
+    padding-left: 0;
+} 
+.contacter{
+    padding: 20px;
+    width: 600px;
+    margin: 40px auto;
+    background-color: #EFEBE8;
+    border: 3px solid white;
+    text-align: center;
+
+}
+.footer{ 
+    width: 1200px;
+    margin: 40px auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+}
+ 
+.Reseau-sociaux{
+    width: 470px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 100px 30px;
+    border :1px solid#EFEBE8
+}
+i{
+    color:black;
+    font-size: 50px;
+}
+
+.list-inlign-social li{
+    color:black;
+    font-size: 40px;
+    display: inline;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    padding:20px;
+    padding-top: 30px;
+ 
+}
+.newsletter{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 30px 0px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.img-main {
+    width: 100%;
+    position: relative;
+    transition: 0.5s;
+}
+
+.img-main img {
+    width: 100%;
+}
+
+.img-minor {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.img-main:hover .img-minor {
+    opacity: 1;
+}
+
+.form{ 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 30px 0px;
+    border-radius: 5px;
+    text-align: center;}
